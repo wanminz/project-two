@@ -20,8 +20,7 @@ h1 {
 
 .menu{
   display: grid;
-  grid-template-areas:
-  "about-grid resume-grid";
+  grid-template-areas: "about-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
   font-size: 1.33333333333em;
   padding-top: 5%;
