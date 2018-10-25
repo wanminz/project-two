@@ -2,15 +2,18 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* stylelint-disable*/
+/* stylelint-disable */
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
 /* Begin site styles below */
 
+/* set font for entire webpage */
 html{
   font-family: "Georgia", serif;
 }
+
+/* heading 1 properties and styles */
 h1 {
   background-color: #fcefb5;
   font-size: 3em;
@@ -19,6 +22,7 @@ h1 {
   text-align: center;
 }
 
+/* grid for the menu class in order to make the homepage links side by side*/
 .menu{
   display: grid;
   grid-template-areas: "about-grid resume-grid";
@@ -30,6 +34,7 @@ h1 {
   background-color: #f9bbbb;
 }
 
+/* alias for homepage menu links: about me and resume */
 a[href=".about-me-link"]
 {
   grid-area: about-grid;
@@ -38,4 +43,9 @@ a[href=".about-me-link"]
 a[href=".resume-link"]
 {
   grid-area: resume-grid;
+}
+
+img{
+  display: block;
+  max-width: 100%;
 }
