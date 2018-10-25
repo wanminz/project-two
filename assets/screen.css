@@ -8,7 +8,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+html{
+  font-family: "Georgia", serif;
+}
 h1 {
   background-color: #fcefb5;
-  font-size: 5em;
+  font-size: 3em;
+  padding: 6%;
+  text-align: center;
+}
+
+.menu{
+  display: grid;
+  grid-template-areas:
+  "about-grid resume-grid";
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.33333333333em;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  background-color: #f9bbbb;
+}
+
+a[href=".about-me-link"]
+{
+  grid-area: about-grid;
+}
+
+a[href=".resume-link"]
+{
+  grid-area: resume-grid;
 }
