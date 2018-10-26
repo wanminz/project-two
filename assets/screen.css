@@ -36,7 +36,7 @@ h1 {
 
 .about-menu{
   display: grid;
-  grid-template-areas: "home-grid resume-a-grid";
+  grid-template-areas: "home-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
   font-size: 1.33333333333em;
   padding-top: 1.5%;
@@ -47,7 +47,7 @@ h1 {
 
 .resume-menu{
   display: grid;
-  grid-template-areas: "about-grid resume-grid";
+  grid-template-areas: "home-grid about-grid";
   grid-template-columns: repeat(2, 1fr);
   font-size: 1.33333333333em;
   padding-top: 5%;
@@ -72,11 +72,6 @@ a[href=".home-link"]
   grid-area: home-grid;
 }
 
-a[href=".resume-a-link"]
-{
-  grid-area: resume-a-grid;
-}
-
 h2{
   font-size:1.5em;
   background-color: #e5d6ff;
@@ -95,6 +90,42 @@ h2{
 #shows{
   font-size: 1em;
   padding: 5%;
+}
+
+#contact{
+  font-size: 1.5em;
+  padding: 5%;
+}
+
+#objective{
+  font-size: 1em;
+  padding: 5%;
+}
+
+#profile{
+  font-size: 1em;
+  padding: 5%;
+}
+
+#experience{
+  font-size: 1em;
+  padding: 5%;
+}
+
+#education{
+  font-size: 1em;
+  padding: 5%;
+}
+
+h3{
+  font-size: 1em;
+  font-weight: bold;
+  padding: 3%;
+}
+
+ul {
+  padding: 0 0 0.6111em 1.222em;
+  list-style-type: circle;
 }
 
 img{
