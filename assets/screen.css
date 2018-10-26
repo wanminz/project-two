@@ -41,21 +41,21 @@ h1 {
   font-size: 1.33333333333em;
   grid-template-areas: "home-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 1.5%;
-  padding-left: 20%;
   padding-bottom: 1.5%;
+  padding-left: 20%;
+  padding-top: 1.5%;
 }
 
 /* grid for the menu class in order to make the resume links side by side*/
 .resume-menu{
+  background-color: #f9bbbb;
   display: grid;
   grid-template-areas: "home-grid about-grid";
   grid-template-columns: repeat(2, 1fr);
   font-size: 1.33333333333em;
-  padding-top: 1.5%;
-  padding-left: 20%;
   padding-bottom: 1.5%;
-  background-color: #f9bbbb;
+  padding-left: 20%;
+  padding-top: 1.5%;
 }
 
 /* alias for homepage menu links for all 3 pages*/
@@ -131,8 +131,8 @@ h3{
 
 /* styling unlisted items */
 ul {
-  padding: 0 0 0.6111em 1.222em;
   list-style-type: circle;
+  padding: 0 0 0.6111em 1.222em;
 }
 
 /* for responsive images */
