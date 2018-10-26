@@ -23,7 +23,7 @@ h1 {
 }
 
 /* grid for the menu class in order to make the homepage links side by side*/
-.menu{
+.main-menu{
   display: grid;
   grid-template-areas: "about-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
@@ -34,7 +34,29 @@ h1 {
   background-color: #f9bbbb;
 }
 
-/* alias for homepage menu links: about me and resume */
+.about-menu{
+  display: grid;
+  grid-template-areas: "home-grid resume-a-grid";
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.33333333333em;
+  padding-top: 1.5%;
+  padding-left: 20%;
+  padding-bottom: 1.5%;
+  background-color: #f9bbbb;
+}
+
+.resume-menu{
+  display: grid;
+  grid-template-areas: "about-grid resume-grid";
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.33333333333em;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  background-color: #f9bbbb;
+}
+
+/* alias for homepage menu links for all 3 pages*/
 a[href=".about-me-link"]
 {
   grid-area: about-grid;
@@ -43,6 +65,35 @@ a[href=".about-me-link"]
 a[href=".resume-link"]
 {
   grid-area: resume-grid;
+}
+
+a[href=".home-link"]
+{
+  grid-area: home-grid;
+}
+
+a[href=".resume-a-link"]
+{
+  grid-area: resume-a-grid;
+}
+
+h2{
+  font-size:1.5em;
+}
+
+#backstory{
+  font-size: 1em;
+  padding: 5%;
+}
+
+#hobbies{
+  font-size: 1em;
+  padding: 5%;
+}
+
+#shows{
+  font-size: 1em;
+  padding: 5%;
 }
 
 img{
