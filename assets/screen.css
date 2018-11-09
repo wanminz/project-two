@@ -28,10 +28,11 @@ h1 {
   display: grid;
   font-size: 1.33333333333em;
   grid-template-areas: "home-grid about-grid resume-grid";
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr, 1fr);
   list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
+  padding-right: 20%;
   padding-top: 1.5%;
 }
 
