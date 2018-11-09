@@ -29,6 +29,7 @@ h1 {
   font-size: 1.33333333333em;
   grid-template-areas: "about-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
+  list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
   padding-top: 1.5%;
@@ -41,6 +42,7 @@ h1 {
   font-size: 1.33333333333em;
   grid-template-areas: "home-grid resume-grid";
   grid-template-columns: repeat(2, 1fr);
+  list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
   padding-top: 1.5%;
@@ -50,9 +52,10 @@ h1 {
 .resume-menu{
   background-color: #f9bbbb;
   display: grid;
+  font-size: 1.33333333333em;
   grid-template-areas: "home-grid about-grid";
   grid-template-columns: repeat(2, 1fr);
-  font-size: 1.33333333333em;
+  list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
   padding-top: 1.5%;
