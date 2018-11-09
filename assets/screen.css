@@ -27,8 +27,8 @@ h1 {
   background-color: #f9bbbb;
   display: grid;
   font-size: 1.33333333333em;
-  grid-template-areas: "about-grid resume-grid";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "home-grid about-grid resume-grid";
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
@@ -36,30 +36,30 @@ h1 {
 }
 
 /* grid for the menu class in order to make the about links side by side*/
-.about-menu{
+/*.about-menu{
   background-color: #f9bbbb;
   display: grid;
   font-size: 1.33333333333em;
-  grid-template-areas: "home-grid resume-grid";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "home-grid about-grid resume-grid";
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
   padding-top: 1.5%;
-}
+}*/
 
 /* grid for the menu class in order to make the resume links side by side*/
-.resume-menu{
+/*.resume-menu{
   background-color: #f9bbbb;
   display: grid;
   font-size: 1.33333333333em;
-  grid-template-areas: "home-grid about-grid";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "home-grid about-grid resume-grid";
+  grid-template-columns: repeat(3, 1fr);
   list-style: none;
   padding-bottom: 1.5%;
   padding-left: 20%;
   padding-top: 1.5%;
-}
+}*/
 
 /* alias for homepage menu links for all 3 pages*/
 a[href=".about-me-link"]
