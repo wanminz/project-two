@@ -103,12 +103,12 @@ a[href=".home-link"]
     font-size: 1.5em;
   }
   h2{
-  font-size: 2em; /* 32 / 16 = 2 */
-}
+    font-size: 2em; /* 32 / 16 = 2 */
+  }
 
-ul{
-  font-size: 1em;
-}
+  ul{
+    font-size: 1em;
+  }
 
 @media screen and (min-width: 1000px){
   html{
