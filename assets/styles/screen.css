@@ -11,6 +11,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* set font for entire webpage */
 html{
   font-family: "Georgia", serif;
+
+  /*
+    Major Third Modular scale
+    https://www.modularscale.com/?16&px&1.25
+    */
 }
 
 /* heading 1 properties and styles */
