@@ -10,20 +10,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* set font for entire webpage */
 html{
-  font-family: "Georgia", serif;
-
   /*
     Major Third Modular scale
-    https://www.modularscale.com/?16&px&1.25
+    hhttps://www.modularscale.com/?16&px&1.25
     */
+    font-family: "Georgia", serif;
+    font-size: 1em; /* 16 / 16px = 1 */
+    line-height: 1.5em; /* 24 / 16px = 1.5*/
 }
 
 /* heading 1 properties and styles */
 h1 {
   background-color: #fcefb5;
   color: #636363;
-  font-size: 3em;
-  padding: 6%;
+  font-size: 2.25em; /* 36 / 16 px = 2.25 */
+  line-height: 2em; /* 48 / 24 = 2 */
+  padding: 10%;
   text-align: center;
 }
 
@@ -41,39 +43,10 @@ h1 {
   padding-top: 1.5%;
 }
 
-/* alias for homepage menu links for all 3 pages*/
-a[href=".about-me-link"]
-{
-  grid-area: about-grid;
-}
-
-a[href=".resume-link"]
-{
-  grid-area: resume-grid;
-}
-
-a[href=".home-link"]
-{
-  grid-area: home-grid;
-}
-
 /* styles for heading 2 */
 h2{
   font-size:1.5em;
   background-color: #e5d6ff;
-}
-
-/* styles for about me page */
-#backstory,
-#hobbies,
-#shows,
-#contact,
-#objective,
-#profile,
-#experience,
-#education{
-  font-size: 1em;
-  padding: 5%;
 }
 
 /* styling for heading 3 */
@@ -93,4 +66,53 @@ ul {
 img{
   display: block;
   max-width: 100%;
+}
+
+/* styles for about me page */
+#backstory,
+#hobbies,
+#shows,
+#contact,
+#objective,
+#profile,
+#experience,
+#education{
+  font-size: 1em;
+  padding: 5%;
+}
+
+/* alias for homepage menu links for all 3 pages*/
+a[href=".about-me-link"]
+{
+  grid-area: about-grid;
+}
+
+a[href=".resume-link"]
+{
+  grid-area: resume-grid;
+}
+
+a[href=".home-link"]
+{
+  grid-area: home-grid;
+}
+
+/* media queries */
+@media screen and (min-width: 600px){
+  html{
+    font-size: 1.5em;
+  }
+  h2{
+  font-size: 2em; /* 32 / 16 = 2 */
+}
+
+ul{
+  font-size: 1em;
+}
+
+@media screen and (min-width: 1000px){
+  html{
+    font-size: 2em;
+  }
+}
 }
