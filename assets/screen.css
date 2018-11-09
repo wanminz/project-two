@@ -59,42 +59,13 @@ h2{
 }
 
 /* styles for about me page */
-#backstory{
-  font-size: 1em;
-  padding: 5%;
-}
-
-#hobbies{
-  font-size: 1em;
-  padding: 5%;
-}
-
-#shows{
-  font-size: 1em;
-  padding: 5%;
-}
-
-/* styles for resume page */
-#contact{
-  font-size: 1.5em;
-  padding: 5%;
-}
-
-#objective{
-  font-size: 1em;
-  padding: 5%;
-}
-
-#profile{
-  font-size: 1em;
-  padding: 5%;
-}
-
-#experience{
-  font-size: 1em;
-  padding: 5%;
-}
-
+#backstory,
+#hobbies,
+#shows,
+#contact,
+#objective,
+#profile,
+#experience,
 #education{
   font-size: 1em;
   padding: 5%;
