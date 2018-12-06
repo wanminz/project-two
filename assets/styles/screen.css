@@ -51,11 +51,6 @@ figure{
   flex-wrap: wrap;
 }
 
-#guangdong{
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .media {
   min-width: 0;
   margin: 0.3333333em;
