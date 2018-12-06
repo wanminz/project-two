@@ -78,12 +78,6 @@ ul {
   padding: 0 0 0.6111em 1.222em;
 }
 
-/* for responsive images */
-img{
-  display: block;
-  max-width: 100%;
-}
-
 /* styles for about me page */
 #backstory,
 #hobbies,
@@ -115,16 +109,77 @@ a[href=".home-link"]
 
 /* media queries */
 @media screen and (min-width: 600px){
-  h1{
-    font-size: 3em; /* 48 / 16 = 3 */
+  html{
+      font-size: 1.25em; /* 20 / 16px = 1.25 */
+      line-height: 1.953em; /* 31.25 / 16px = 1.953 */
   }
 
+  /* heading 1 properties and styles */
+  h1 {
+    font-size: 3.052em; /* 48.828 / 16 px = 3.052 */
+    line-height: 2em; /* 48 / 24 = 2 */
+    padding: 10%;
+    text-align: center;
+  }
+
+  /* grid for the menu class in order to make the homepage links side by side*/
+  .main-menu{
+    display: grid;
+    font-size: 1.33333333333em;
+    grid-template-areas: "home-grid about-grid resume-grid";
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    padding-bottom: 1.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1.5%;
+  }
+
+  figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .media {
+    min-width: 0;
+    margin: 0.3333333em;
+  }
+
+  img {
+    width: 450px;
+    max-width: 100%;
+    max-height: 450px;
+  }
+  /* styles for heading 2 */
   h2{
-    font-size: 2.1em; /* 32 / 16 = 2 */
+    font-size:1.563em; /* 25 / 16px = 1.953 */
   }
 
-  ul{
-    font-size: 0.5em;
+  /* styling for heading 3 */
+  h3{
+    font-size: 1.25em; /* 20 / 16px = 1.25 */
+    font-weight: bold;
+    padding: 3%;
+  }
+
+  /* styling unlisted items */
+  ul {
+    list-style-type: circle;
+    padding: 0 0 0.6111em 1.222em;
+  }
+
+  /* styles for about me page */
+  #backstory,
+  #hobbies,
+  #shows,
+  #contact,
+  #objective,
+  #profile,
+  #experience,
+  #education{
+    font-size: 1.25em; /* 20 / 16px = 1.25 */
+    padding: 5%;
   }
 
 @media screen and (min-width: 1000px){
