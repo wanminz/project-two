@@ -11,11 +11,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* set font type for entire webpage */
 html{
   /*
-    Major Third Modular scale
-    https://www.modularscale.com/?16&px&1.25
-    */
-    font-family: "Georgia", serif;
-    line-height: 1.563em; /* 25 / 16px = 1.563 */
+  Major Third Modular scale
+  https://www.modularscale.com/?16&px&1.25
+  */
+  font-family: "Georgia", serif;
+  line-height: 1.563em; /* 25 / 16px = 1.563 */
 }
 
 /* heading 1 properties and styles */
@@ -47,24 +47,24 @@ h1 {
 
 figure{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .media {
-  min-width: 0;
   margin: 0.3333333em;
+  min-width: 0;
 }
 
 img {
-  width: 450px;
-  max-width: 100%;
   max-height: 450px;
+  max-width: 100%;
+  width: 450px;
 }
 /* styles for heading 2 */
 h2{
-  font-size:1.25em; /* 20 / 16px = 1.25 */
   background-color: #e5d6ff;
+  font-size:1.25em; /* 20 / 16px = 1.25 */
   padding: 0.5%;
 }
 
@@ -88,19 +88,19 @@ ul {
 }
 
 #topbutton {
-  position: fixed; /* Fixed/sticky position */
-  bottom: 1%;
-  right: 5%; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
   background-color: grey;
-  color: white; /* Text color */
+  bottom: 1%;
+  color: white;
+  font-size: 5%;
   padding: 5%
-  font-size: 5%; /* Increase font size */
-  }
+  position: fixed;
+  right: 5%;
+  z-index: 99;
+}
 
 footer{
-  padding: 5%;
   font-size: 0.8em; /* 12.8 / 16px = 0.8 */
+  padding: 5%;
 }
 
 /* alias for homepage menu links for all 3 pages*/
@@ -162,67 +162,67 @@ a[href=".home-link"]
 
   figure{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .media {
-    min-width: 0;
     margin: 0.3333333em;
+    min-width: 0;
   }
 
   img {
-    width: 450px;
-    max-width: 100%;
     max-height: 450px;
-  }
-
-/* media query for screen of min-width 1000px */
-@media screen and (min-width: 1000px){
-
-  html{
-    padding-bottom: 5%;
-  }
-
-  .main-menu{
-    font-size: 1.563em; /* 25 / 16px = 1.563 */
-    padding: 1%;
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  /* styles for about me page */
-  #backstory,
-  #hobbies,
-  #shows,
-  #contact,
-  #objective,
-  #profile,
-  #experience,
-  #education{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: none;
-    padding-bottom: none;
-  }
-
-  figure{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .media {
-    min-width: 0;
-    margin: 0.3333333em;
-  }
-
-  img {
-    padding: 5%;
-    width: 450px;
     max-width: 100%;
-    max-height: 450px;
+    width: 450px;
   }
-}
+
+  /* media query for screen of min-width 1000px */
+  @media screen and (min-width: 1000px){
+
+    html{
+      padding-bottom: 5%;
+    }
+
+    .main-menu{
+      font-size: 1.563em; /* 25 / 16px = 1.563 */
+      padding: 1%;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+    /* styles for about me page */
+    #backstory,
+    #hobbies,
+    #shows,
+    #contact,
+    #objective,
+    #profile,
+    #experience,
+    #education{
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: none;
+      padding-bottom: none;
+    }
+
+    figure{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .media {
+      min-width: 0;
+      margin: 0.3333333em;
+    }
+
+    img {
+      padding: 5%;
+      width: 450px;
+      max-width: 100%;
+      max-height: 450px;
+    }
+  }
 }
 }
