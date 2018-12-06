@@ -111,24 +111,38 @@ a[href=".home-link"]
 /* media queries */
 @media screen and (min-width: 600px){
 
+  html{
+    /*
+      Major Third Modular scale
+      https://www.modularscale.com/?16&px&1.25
+      */
+      font-family: "Georgia", serif;
+      line-height: 1.953em; /* 31.25 / 16px = 1.953 */
+  }
+
   /* heading 1 properties and styles */
   h1 {
-    font-size: 3.052em; /* 48.828 / 16 px = 3.052 */
-    line-height: 2em; /* 48 / 24 = 2 */
+    background-color: #fcefb5;
+    color: #636363;
+    font-size: 3.052em; /* 39.063 / 16 px = 2.441 */
+    line-height: 2.441em; /* 39.063 / 16 = 2.441 */
     padding: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
     text-align: center;
   }
 
   /* grid for the menu class in order to make the homepage links side by side*/
   .main-menu{
+    background-color: #f9bbbb;
     display: grid;
-    font-size: 1.953em;
+    font-size: 1.25em; /* 20 / 16px = 1.25 */
     grid-template-areas: "home-grid about-grid resume-grid";
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     padding-bottom: 2.5%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 2.5%;
     text-align: center;
   }
@@ -151,7 +165,9 @@ a[href=".home-link"]
   }
   /* styles for heading 2 */
   h2{
-    font-size:1.563em; /* 25 / 16px = 1.953 */
+    font-size:1.25em; /* 20 / 16px = 1.25 */
+    background-color: #e5d6ff;
+    padding: 0.5%;
   }
 
   /* styling unlisted items */
@@ -169,8 +185,13 @@ a[href=".home-link"]
   #profile,
   #experience,
   #education{
-    font-size: 1.25em; /* 20 / 16px = 1.25 */
+    font-size: 1em; /* 16 / 16px = 1 */
     padding: 5%;
+  }
+
+  footer{
+    padding: 5%;
+    font-size: 0.8em; /* 12.8 / 16px = 0.8 */
   }
 
 @media screen and (min-width: 1000px){
