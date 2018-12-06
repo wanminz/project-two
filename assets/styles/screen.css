@@ -109,30 +109,27 @@ a[href=".home-link"]
 
 /* media queries */
 @media screen and (min-width: 600px){
-  html{
-      font-size: 1em; /* 16 / 16px = 1 */
-      line-height: 1.563em; /* 25 / 16px = 1.563 */
-  }
 
   /* heading 1 properties and styles */
   h1 {
     font-size: 3.052em; /* 48.828 / 16 px = 3.052 */
     line-height: 2em; /* 48 / 24 = 2 */
-    padding: 10%;
+    padding: 5%;
     text-align: center;
   }
 
   /* grid for the menu class in order to make the homepage links side by side*/
   .main-menu{
     display: grid;
-    font-size: 1.33333333333em;
+    font-size: 1.953em;
     grid-template-areas: "home-grid about-grid resume-grid";
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
-    padding-bottom: 1.5%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 1.5%;
+    padding-bottom: 2.5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;
+    text-align: center;
   }
 
   figure{
@@ -154,13 +151,6 @@ a[href=".home-link"]
   /* styles for heading 2 */
   h2{
     font-size:1.563em; /* 25 / 16px = 1.953 */
-  }
-
-  /* styling for heading 3 */
-  h3{
-    font-size: 1.25em; /* 20 / 16px = 1.25 */
-    font-weight: bold;
-    padding: 3%;
   }
 
   /* styling unlisted items */
