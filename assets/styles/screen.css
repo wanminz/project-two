@@ -110,8 +110,8 @@ a[href=".home-link"]
 /* media queries */
 @media screen and (min-width: 600px){
   html{
-      font-size: 1.25em; /* 20 / 16px = 1.25 */
-      line-height: 1.953em; /* 31.25 / 16px = 1.953 */
+      font-size: 1em; /* 16 / 16px = 1 */
+      line-height: 1.563em; /* 25 / 16px = 1.563 */
   }
 
   /* heading 1 properties and styles */
