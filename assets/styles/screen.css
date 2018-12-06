@@ -43,6 +43,22 @@ h1 {
   padding-top: 1.5%;
 }
 
+figure{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.media {
+  min-width: 0;
+  margin: 0.3333333em;
+}
+
+img {
+  width: 450px;
+  max-width: 100%;
+  max-height: 450px;
+}
 /* styles for heading 2 */
 h2{
   font-size:1.5em;
@@ -99,10 +115,6 @@ a[href=".home-link"]
 
 /* media queries */
 @media screen and (min-width: 600px){
-  html{
-    font-size: 2em;
-  }
-
   h1{
     font-size: 3em; /* 48 / 16 = 3 */
   }
