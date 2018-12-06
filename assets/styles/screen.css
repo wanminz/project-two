@@ -23,10 +23,10 @@ h1 {
   background-color: #fcefb5;
   color: #636363;
   font-size: 2.441em; /* 39.063 / 16 px = 2.441 */
-  line-height: 2.441em; /* 39.063 / 16 = 2.441 */
+  line-height: 1.563em; /* 39.063 / 16 = 2.441 */
   padding: 5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-top: 3%;
   text-align: center;
 }
 
@@ -163,9 +163,52 @@ a[href=".home-link"]
     max-width: 100%;
     max-height: 450px;
   }
+
 @media screen and (min-width: 1000px){
+
   html{
-    font-size: 2em;
+    padding: 10%;
   }
+
+  .main-menu{
+    font-size: 1.563em; /* 25 / 16px = 1.563 */
+    padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  /* styles for about me page */
+  #backstory,
+  #hobbies,
+  #shows,
+  #contact,
+  #objective,
+  #profile,
+  #experience,
+  #education{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: none;
+    padding-bottom: none;
+  }
+
+  figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .media {
+    min-width: 0;
+    margin: 0.3333333em;
+  }
+
+  img {
+    padding: 5%;
+    width: 450px;
+    max-width: 100%;
+    max-height: 450px;
+  }
+}
 }
 }
