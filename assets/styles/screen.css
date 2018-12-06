@@ -167,6 +167,11 @@ a[href=".home-link"]
 @media screen and (min-width: 1000px){
 
   html{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h1{
     padding: 10%;
   }
 
