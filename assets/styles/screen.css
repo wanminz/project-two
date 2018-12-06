@@ -15,6 +15,7 @@ html{
     https://www.modularscale.com/?16&px&1.25
     */
     font-family: "Georgia", serif;
+    line-height: 1.563em; /* 25 / 16px = 1.563 */
 }
 
 /* heading 1 properties and styles */
@@ -62,16 +63,9 @@ img {
 }
 /* styles for heading 2 */
 h2{
-  font-size:1.25em;
+  font-size:1.25em; /* 20 / 16px = 1.25 */
   background-color: #e5d6ff;
-  padding: 1.5%;
-}
-
-/* styling for heading 3 */
-h3{
-  font-size: 1em;
-  font-weight: bold;
-  padding: 3%;
+  padding: 0.5%;
 }
 
 /* styling unlisted items */
@@ -89,8 +83,13 @@ ul {
 #profile,
 #experience,
 #education{
-  font-size: 1em;
+  font-size: 1em; /* 16 / 16px = 1 */
   padding: 5%;
+}
+
+footer{
+  padding: 5%;
+  font-size: 0.8em; /* 12.8 / 16px = 0.8 */
 }
 
 /* alias for homepage menu links for all 3 pages*/
