@@ -15,17 +15,17 @@ html{
     https://www.modularscale.com/?16&px&1.25
     */
     font-family: "Georgia", serif;
-    font-size: 1em; /* 16 / 16px = 1 */
-    line-height: 1.5em; /* 24 / 16px = 1.5*/
 }
 
 /* heading 1 properties and styles */
 h1 {
   background-color: #fcefb5;
   color: #636363;
-  font-size: 2.25em; /* 36 / 16 px = 2.25 */
-  line-height: 2em; /* 48 / 24 = 2 */
-  padding: 10%;
+  font-size: 2.441em; /* 36 / 16 px = 2.25 */
+  line-height: 2.441em; /* 48 / 24 = 2 */
+  padding: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
   text-align: center;
 }
 
@@ -38,9 +38,10 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   list-style: none;
   padding-bottom: 1.5%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 1.5%;
+  text-align: center;
 }
 
 figure{
