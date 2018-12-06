@@ -8,7 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-/* set font for entire webpage */
+/* set font type for entire webpage */
 html{
   /*
     Major Third Modular scale
@@ -109,6 +109,8 @@ a[href=".home-link"]
 }
 
 /* media queries */
+
+/* min-width of 600px */
 @media screen and (min-width: 600px){
 
   html{
@@ -125,7 +127,7 @@ a[href=".home-link"]
     text-align: center;
   }
 
-  /* grid for the menu class in order to make the homepage links side by side*/
+  /* grid for the menu class in order to make the homepage links side by side */
   .main-menu{
     font-size: 1.563em; /* 25 / 16px = 1.563 */
   }
@@ -164,15 +166,11 @@ a[href=".home-link"]
     max-height: 450px;
   }
 
+/* media query for screen of min-width 1000px */
 @media screen and (min-width: 1000px){
 
   html{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  h1{
-    padding: 10%;
+    padding-bottom: 5%;
   }
 
   .main-menu{
@@ -191,8 +189,8 @@ a[href=".home-link"]
   #profile,
   #experience,
   #education{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: none;
     padding-bottom: none;
   }
